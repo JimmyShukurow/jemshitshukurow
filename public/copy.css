@@ -1,0 +1,54 @@
+.name-job {
+    width: 70%;
+    color: #0062ad;
+    font-family: 'Times New Roman', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+.about-me {
+    background: cadetblue;
+    padding: 0 50px;
+}
+.name {
+    font-size: 50px;
+    font-weight: 800;
+}
+.job {
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: underline;
+}   
+.title-name {
+    font-weight: 800;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.data {
+    font-size: 30px;
+}
+.header {
+    display: block;
+    margin-top: 50px;
+    border: 1px solid;
+    border-color:#0062ad;
+    background: #e6e6e6;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+.center-vertical {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+img {
+    display: inline-block;
+    border-radius: 50%;
+}
+.header-title {
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 800;
+}
