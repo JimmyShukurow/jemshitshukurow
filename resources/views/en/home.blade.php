@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ env('APP_URL') }}/jemshitshukurow/public/style.css">
     <title>Jemshit</title>
 </head>
 <body>
     <div class="container">
-    <div class="lang"><span> <a href="{{ env('APP_URL') }}"> en</a></span><span> <a href="{{ env('APP_URL') }}tr">tr</a> </span><span class="version"> <a href="https://jimmyshukurow.github.io/Resume-Static/">another version</a> </span></div>
+    <div class="lang"><span> <a href="{{ env('APP_URL') }}"> en</a></span><span> <a href="{{ env('APP_URL') }}/jemshitshukurow/public/tr">tr</a> </span><span class="version"> <a href="https://jimmyshukurow.github.io/Resume-Static/">another version</a> </span></div>
         <div class=" header d-flex">
             <div class="name-job center-vertical">
                 <div> 
@@ -19,7 +19,7 @@
                     <p class="center job">Laravel and Vue.js developer</p>
                 </div>
             </div>
-            <img src="{{asset('jemshit.JPG')}}" alt="JemshitPhoto" width="300">
+            <img src="{{ env('APP_URL') }}/jemshitshukurow/public/jemshit.JPG" alt="JemshitPhoto" width="300">
         </div>
         <div class="about-me"> 
             <h2 class="center header-title"> About me </h2>
