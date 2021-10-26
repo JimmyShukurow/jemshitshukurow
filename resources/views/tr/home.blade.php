@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="lang"><span> <a href="{{ env('APP_URL') }}"> en</a></span><span> <a href="{{ env('APP_URL') }}/tr">tr</a> </span></div>
+        <div class="lang"><span> <a href="{{ env('APP_URL') }}"> en</a></span><span> <a href="{{ env('APP_URL') }}tr">tr</a> </span><span class="version"> <a href="https://jimmyshukurow.github.io/Resume-Static/">değişik versiyon</a> </span></div>
         <div class=" header d-flex">
             <div class="name-job center-vertical">
                 <div> 

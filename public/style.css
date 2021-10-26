@@ -12,10 +12,18 @@
     font-weight: 800;
 }
 .lang {
-    display:inline;
+    display:flex;
     justify-content: center;
     padding: 5px;
-    background: crimson;
+    text-decoration: none;
+}
+.lang > span {
+    background: rgb(98, 218, 42);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.lang > span > a {
     text-decoration: none;
 }
 .job {
